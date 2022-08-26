@@ -9,6 +9,16 @@ export default function About() {
     <section>
       <h1 className="largestyle">About Me</h1>
       <div className="section2">
+        
+        <div className="contentabout">
+        
+          <h2>
+          
+            I am currently working as an Asst. Professor in Information Science
+            and Technology Department.I enjoy garding, painting, explore new Technologies and
+            praticing yoga
+          </h2>
+        </div>
         <div>
           image
           <a href=""><GitHubIcon fontSize="large"/></a>
@@ -16,15 +26,6 @@ export default function About() {
           <a href=""><TwitterIcon fontSize="large"/></a>
           <a href=""><EmailIcon fontSize="large"/></a>
           <a href=""><LinkedInIcon fontSize="large"/></a> 
-        </div>
-        <div className="contentabout">
-          {" "}
-          <h2 className="medium">
-            {" "}
-            I am currently working as an Asst. Professor in Information Science
-            and Technology Department.I enjoy garding, painting, explore new Technologies and
-            praticing yoga{" "}
-          </h2>
         </div>
       </div>
 
