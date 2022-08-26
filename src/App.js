@@ -37,22 +37,30 @@ export default function App(){
   const theme = useTheme();
   return(
     <div className='App'>
-Hello welcome to 
 <NavigationBar />
 
 
 <a name="home"></a>
 <section className='section-home'>
-  <Container className="">
+  <Container className="flx">
 
-  <Card variant="outlined">
+  <Card variant="Contained" align="center">
             <div className="flx">
               <div><img className='profile_pic' src={Profile}  alt=""/></div>
-              <div className="home_style"> 
-              <h1> Hi, I am <br/> Sangeetha</h1>
+              {/* <div className="home_style" > 
+              <h1> Hi, I am <br/> Sangeetha<br/> I like</h1>
+              </div> */}
+            </div>
+          </Card>
+          <Card variant="outlined" align="center">
+            <div className="flx">
+              {/* <div><img className='profile_pic' src={Profile}  alt=""/></div> */}
+              <div className="home_style" > 
+              <h1> Hi, I am <br/> Sangeetha<br/> I like</h1>
               </div>
             </div>
           </Card>
+
     {/* <div><img  className="profile_pic" src={Profile} alt='sangi'/> </div>
     <div> 
       <h1 className='largestyle'> Hi, I am</h1>
