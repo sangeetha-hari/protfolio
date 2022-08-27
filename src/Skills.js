@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "@mui/material/Card";
+import KeyboardDoubleArrowDown from '@mui/icons-material/KeyboardDoubleArrowDown';
 const data = [
   {
     id: 1,
@@ -80,6 +81,7 @@ export default function Skills() {
         );
       })}
     </section>
+    <a  href="#project"><KeyboardDoubleArrowDown fontSize='large'/></a>
     </div>
   );
 }

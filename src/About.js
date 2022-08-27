@@ -28,8 +28,11 @@ export default function About() {
           <a href=""><LinkedInIcon fontSize="large"/></a> 
         </div>
       </div>
+      <a  href="#skills"><KeyboardDoubleArrowDown fontSize='large'/>
 
-      <KeyboardDoubleArrowDown fontSize="large" />
+</a>
+
+      
     </section>
   );
 }

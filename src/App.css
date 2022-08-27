@@ -101,8 +101,8 @@ gap: 5%;
 
 .profile_pic{
   width: auto;
-  max-height: 60vh;
-  max-width: fit-content;
+  max-height: 50vh;
+  max-width: 50vh;
   object-fit: cover;
 }
 .home{

@@ -42,42 +42,18 @@ export default function App(){
 
 <a name="home"></a>
 <section className='section-home'>
-  <Container className="flx">
+ 
+  <Container>
+  <div className="d-flex justify-content-center align-items-center flx ">
+    <div className='p-2 flex-fill'><img className='profile_pic' src={Profile}  alt=""/></div>
+    <div className='justify-content-end p-2 flex-fill'> <h1> Hi, I am <br/> Sangeetha<br/> I like</h1></div>
+  </div>
 
-  <Card variant="Contained" align="center">
-            <div className="flx">
-              <div><img className='profile_pic' src={Profile}  alt=""/></div>
-              {/* <div className="home_style" > 
-              <h1> Hi, I am <br/> Sangeetha<br/> I like</h1>
-              </div> */}
-            </div>
-          </Card>
-          <Card variant="outlined" align="center">
-            <div className="flx">
-              {/* <div><img className='profile_pic' src={Profile}  alt=""/></div> */}
-              <div className="home_style" > 
-              <h1> Hi, I am <br/> Sangeetha<br/> I like</h1>
-              </div>
-            </div>
-          </Card>
-
-    {/* <div><img  className="profile_pic" src={Profile} alt='sangi'/> </div>
-    <div> 
-      <h1 className='largestyle'> Hi, I am</h1>
-      <h1 className='largestyle'>Sangeetha</h1>
-      <h2 className='medium'> I like to </h2>
-    </div> */}
-    
-  </Container>
-
-
-
-{/* <span className='element'></span> */}
 <br/><br/>
-<KeyboardDoubleArrowDown fontSize='large'/>
-
+<a  href="#about-section"><KeyboardDoubleArrowDown fontSize='large'/>
 <i class="fa-solid fa-angle-down"></i>
-
+</a>
+</Container>
 </section>
 
 {/*About me section start**************** */}

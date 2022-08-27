@@ -20,39 +20,6 @@ export default function NavigationBar() {
     <a className="nav-link" aria-current="page" href="#contact"><b className="navbold">Contact</b></a>
   </li>
   </ul>
-        
-      {/* <ul>
-        <li>
-          {" "}
-          <a href="#">
-            <span>Home</span>
-          </a>
-        </li>
-        <li>
-          {" "}
-          <a href="#about-section">
-            <span>About Me</span>
-          </a>
-        </li>
-        <li>
-          {" "}
-          <a href="#skills">
-            <span>Skills</span>
-          </a>
-        </li>
-        <li>
-          {" "}
-          <a href="#project">
-            <span>Project</span>
-          </a>
-        </li>
-        <li>
-          {" "}
-          <a href="#contact">
-            <span>Contact</span>
-          </a>
-        </li>
-  </ul>*/}
     </div> 
   );
 }
