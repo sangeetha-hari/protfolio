@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "@mui/material/Card";
 import KeyboardDoubleArrowDown from '@mui/icons-material/KeyboardDoubleArrowDown';
+import { Container } from "reactstrap";
 const data = [
   {
     id: 1,
@@ -66,7 +67,7 @@ const data = [
 
 export default function Skills() {
   return (
-    <div>
+    <Container className="skill">
        <h2>Skills</h2> 
     <section className="flxcard">
     
@@ -75,13 +76,12 @@ export default function Skills() {
           <Card variant="outlined">
             <div className="flx">
               <img width=" 100px" height="100px" src={el.logo}  alt=""/>
-              {/* <div className="medium">{el.name}</div> */}
             </div>
           </Card>
         );
       })}
     </section>
-    <a  href="#project"><KeyboardDoubleArrowDown fontSize='large'/></a>
-    </div>
+    <a  href="/project"><KeyboardDoubleArrowDown fontSize='large'/></a>
+    </Container>
   );
 }

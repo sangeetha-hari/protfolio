@@ -7,30 +7,27 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function About() {
   return (
     <section>
-      <h1 className="largestyle">About Me</h1>
+      <h1 className="largestyle"><b style={{color:"white"}}>About Me</b></h1>
       <div className="section2">
         
         <div className="contentabout">
         
           <h2>
           
-            I am currently working as an Asst. Professor in Information Science
-            and Technology Department.I enjoy garding, painting, explore new Technologies and
-            praticing yoga
+            I am currently working as an Asst. Professor in Information Science and Technology Department.I enjoy garding, painting, explore new Technologies and praticing yoga
           </h2>
         </div>
         <div>
-          image
-          <a href=""><GitHubIcon fontSize="large"/></a>
+        
+          <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large"/></a>
           
           <a href=""><TwitterIcon fontSize="large"/></a>
           <a href=""><EmailIcon fontSize="large"/></a>
           <a href=""><LinkedInIcon fontSize="large"/></a> 
         </div>
       </div>
-      <a  href="#skills"><KeyboardDoubleArrowDown fontSize='large'/>
-
-</a>
+      <br/>
+      <a  href="/skills"><KeyboardDoubleArrowDown fontSize='large'/></a>
 
       
     </section>

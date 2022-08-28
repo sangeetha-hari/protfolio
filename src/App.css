@@ -81,7 +81,7 @@ section{
   text-align: center;
 }
 .contentabout{
-  width: 50%;
+  width: 90%;
   border: 10px;
   
 }
@@ -116,3 +116,4 @@ gap: 5%;
   font-size: calc(10px + 2vmin);
   text-justify:center;
 }
+

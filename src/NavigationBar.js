@@ -5,7 +5,7 @@ export default function NavigationBar() {
     <div className="nav">
         <ul className="nav nav-pills">
   <li className="nav-item">
-    <a className="nav-link" aria-current="page" href="#"><b className="navbold">Home</b></a>
+    <a className="nav-link" aria-current="page" href="#home"><b className="navbold">Home</b></a>
   </li>
   <li className="nav-item">
     <a className="nav-link" aria-current="page" href="#about-section"><b className="navbold">About</b></a>
@@ -15,6 +15,9 @@ export default function NavigationBar() {
   </li>
   <li className="nav-item">
     <a className="nav-link" aria-current="page" href="#project"> <b className="navbold">Project</b></a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" aria-current="page" href="#contact"><b className="navbold">Contact</b></a>
   </li>
   <li className="nav-item">
     <a className="nav-link" aria-current="page" href="#contact"><b className="navbold">Contact</b></a>
