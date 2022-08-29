@@ -14,16 +14,16 @@ export default function About() {
         
           <h2>
           
-            I am currently working as an Asst. Professor in Information Science and Technology Department.I enjoy garding, painting, explore new Technologies and praticing yoga
+            I am currently working as an Asst. Professor in Information Science and Technology Department. I enjoy garding, painting, explore new Technologies and praticing yoga
           </h2>
         </div>
-        <div>
+        <div className="contact_icon">
         
-          <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large"/></a>
+          <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large" color="info"/> https://github.com/sangeetha-hari </a>
           
-          <a href=""><TwitterIcon fontSize="large"/></a>
-          <a href=""><EmailIcon fontSize="large"/></a>
-          <a href=""><LinkedInIcon fontSize="large"/></a> 
+          <a href="https://twitter.com/sangeetaharikan"><TwitterIcon fontSize="large" color="info" />https://twitter.com/sangeetaharikan</a>
+          <a href=""><EmailIcon fontSize="large" color="error"/>harikantrasangeetha4@gmail.com</a>
+          <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233"><LinkedInIcon fontSize="large" color="inherit"/>https://www.linkedin.com/in/sangeetha-harikantra-b33b40233</a> 
         </div>
       </div>
       <br/>

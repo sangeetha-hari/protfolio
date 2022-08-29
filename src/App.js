@@ -1,39 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './About';
 import Skills from './Skills';
-import NavigationBar from './NavigationBar';
 import Project from './Project';
-import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import KeyboardDoubleArrowDown from '@mui/icons-material/KeyboardDoubleArrowDown';
-import Typed from 'typed.js';
-import { Loop } from '@mui/icons-material';
 import Profile from './propic2-blackWhite.jpg'
 import { Container } from 'reactstrap';
-import Card from "@mui/material/Card";
 import { useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import SkipNextIcon from '@mui/icons-material/SkipNext';
-import {BrowserRouter,Navigate, Routes, Route,Link} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import GitHubIcon from "@mui/icons-material/GitHub";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Button from '@mui/material/Button';
 
-
-
-// var options = {
-//   strings: ["coding", 'sleeoing', 'eating'],
-//   typeSpeed: 150,
-//   loop:true
-// };
-// var typed = new Typed('.element', options);
 
 
 
@@ -41,17 +24,17 @@ export default function App(){
   const theme = useTheme();
   return(
   <div className='App'>
-<Navbar bg="dark" expand="lg">
+<Navbar bg="dark" expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="/home"><b style={{color:"white"}}>Sangeetha</b></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Brand href="/home"><b>Sangeetha</b></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"  />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/home"><b style={{color:"white"}}>Home</b></Nav.Link>
-            <Nav.Link href="/about"><b style={{color:"white"}}>About</b></Nav.Link>
-            <Nav.Link href="/skills"><b style={{color:"white"}}>Skills</b></Nav.Link>
-            <Nav.Link href="/project"><b style={{color:"white"}}>Project</b></Nav.Link>
-            <Nav.Link href="/contact"><b style={{color:"white"}}>Contact</b></Nav.Link>
+            <Nav.Link href="/home"><b >Home</b></Nav.Link>
+            <Nav.Link href="/about"><b >About</b></Nav.Link>
+            <Nav.Link href="/skills"><b >Skills</b></Nav.Link>
+            <Nav.Link href="/project"><b >Project</b></Nav.Link>
+            <Nav.Link href="/contact"><b >Contact</b></Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
@@ -108,10 +91,19 @@ export default function App(){
 }
 
 function Contact() {
-  return <section>contact
+  return <section>
+    <h1 className="largestyle"><b style={{color:"white"}}>Contact</b></h1>
     <h4> gmail</h4>
     <h4> moblie number</h4>
     <h4> </h4>
+    <div>
+        
+          <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large"/></a>
+          
+          <a href=""><TwitterIcon fontSize="large"/></a>
+          <a href=""><EmailIcon fontSize="large"/></a>
+          <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233"><LinkedInIcon fontSize="large"/></a> 
+        </div>
 
   </section>;
 }
@@ -121,11 +113,15 @@ function Home() {
 
     <Container>
       <div className="d-flex justify-content-center align-items-center flx ">
-        <div className='p-2 flex-fill'><img className='profile_pic' src={Profile} alt="" /></div>
-        <div className='justify-content-end p-2 flex-fill'> <h1> Hi, I am <br /> Sangeetha<br /> I like</h1></div>
+        {/* <div className='p-2 flex-fill'><img className='profile_pic' src={Profile} alt="" /></div> */}
+        <div className='justify-content-end p-2 flex-fill'> <h1> Hi, I am <br /> Sangeetha Suresh Harikantra</h1></div>
+        <div className='p-2 flex-fill'><img className='profile_pic' src={"https://i.pinimg.com/originals/0d/a5/cb/0da5cbca5d728a789100439958f50235.gif"} alt="" /></div>
       </div>
 
       <br /><br />
+      <a href='./resume'><Button variant="contained">
+        Download Resume
+      </Button></a>
       <a href="/about"><KeyboardDoubleArrowDown fontSize='large' />
         <i className="fa-solid fa-angle-down"></i>
       </a>

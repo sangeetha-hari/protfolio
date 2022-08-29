@@ -68,7 +68,7 @@ const data = [
 export default function Skills() {
   return (
     <Container className="skill">
-       <h2>Skills</h2> 
+       <h1 className="largestyle"><b style={{color:"white"}}>Skills</b></h1>
     <section className="flxcard">
     
       {data.map((el) => {

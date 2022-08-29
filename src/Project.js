@@ -15,14 +15,14 @@ const projectlist=[
    {
     pid:3,
      pname:"Opinion Mining",
-     psummary:"A Research project to analyze Twitter data on any productS"
+     psummary:"A Research project to analyze Twitter data on any product"
    }
 ]
 
 export default function Project() {
   return (
     <div>
-      <h1> Project</h1>
+      <h1 className="largestyle"><b style={{color:"white"}}>Projects</b></h1>
       <section className="flxcard">
     
     {projectlist.map((el) => {
@@ -37,7 +37,7 @@ export default function Project() {
       );
     })}
   </section>
-  <a  href="#contact"><KeyboardDoubleArrowDown fontSize='large'/></a>
+  <a  href="/contact"><KeyboardDoubleArrowDown fontSize='large'/></a>
     </div>
   );
 }
