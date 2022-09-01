@@ -5,7 +5,7 @@ import About from './About';
 import Skills from './Skills';
 import Project from './Project';
 import KeyboardDoubleArrowDown from '@mui/icons-material/KeyboardDoubleArrowDown';
-import Profile from './propic2-blackWhite.jpg'
+import Profile from './pic.jpg'
 import { Container } from 'reactstrap';
 import { useTheme } from '@mui/material/styles';
 import {Routes, Route} from 'react-router-dom'
@@ -16,6 +16,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Button from '@mui/material/Button';
+import Resume from './resume_sangeetha_IT.pdf';
 
 
 
@@ -127,9 +128,10 @@ function Home() {
       </div>
 
       <br /><br />
-      <a href='./resume_sangeetha.pdf'><Button variant="contained">
+      <a href={Resume} download="SangiDoc"><Button variant="contained">
         Download Resume
       </Button></a>
+      <br/>
       <a href="#about"><KeyboardDoubleArrowDown fontSize='large' />
         <i className="fa-solid fa-angle-down"></i>
       </a>
