@@ -24,17 +24,17 @@ export default function App(){
   const theme = useTheme();
   return(
   <div className='App'>
-<Navbar bg="dark" expand="lg" variant="dark">
+<Navbar bg="dark" expand="lg" variant="dark" sticky="top">
       <Container>
-        <Navbar.Brand href="/home"><b>Sangeetha</b></Navbar.Brand>
+        <Navbar.Brand href="#home"><b>Sangeetha</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/home"><b >Home</b></Nav.Link>
-            <Nav.Link href="/about"><b >About</b></Nav.Link>
-            <Nav.Link href="/skills"><b >Skills</b></Nav.Link>
-            <Nav.Link href="/project"><b >Project</b></Nav.Link>
-            <Nav.Link href="/contact"><b >Contact</b></Nav.Link>
+            <Nav.Link href="#home"><b >Home</b></Nav.Link>
+            <Nav.Link href="#about"><b >About</b></Nav.Link>
+            <Nav.Link href="#skills"><b >Skills</b></Nav.Link>
+            <Nav.Link href="#project"><b >Project</b></Nav.Link>
+            <Nav.Link href="#contact"><b >Contact</b></Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
@@ -46,25 +46,25 @@ export default function App(){
 {/* <NavigationBar /> */}
 
 
-{/* <a name="home"></a> */}
-      {/* <Home/> */}
+<a name="home"></a>
+      <Home/>
 
 {/*About me section start**************** */}
-{/* <a name="about-section"></a> */}
-{/* <About /> */}
+<a name="about"></a>
+<About />
 {/*About me section end**************** */}
 
 
 
 {/*Skill section start**************** */}
-{/* <a name="skills"></a> */}
-{/* <Skills/> */}
+<a name="skills"></a> 
+ <Skills/> 
 {/*Skill section end**************** */}
 
 
 {/*Project section start**************** */}
-{/* <a name="project"></a> */}
-{/* <Project /> */}
+<a name="project"></a>
+<Project />
 
 {/*Project section end**************** */}
 
@@ -72,17 +72,17 @@ export default function App(){
 
 
 {/*Contact section start**************** */}
-{/* <a name="contact"></a> */}
-     {/* <Contact/> */}
+<a name="contact"></a>
+     <Contact/>
 {/*Contact section end**************** */}
 
 <Routes>
-<Route path="/home" element={<Home />} />
-<Route path="/" element={<Home />} />
-<Route path="/about" element={<About />} />
-<Route path="/skills" element={<Skills />} />
-<Route path="/project" element={<Project />} />
-<Route path="/contact" element={<Contact />} />
+<Route path="#home" element={<Home />} />
+<Route path="#" element={<Home />} />
+<Route path="#about" element={<About />} />
+<Route path="#skills" element={<Skills />} />
+<Route path="#project" element={<Project />} />
+<Route path="#contact" element={<Contact />} />
 <Route path="*" element={<Home />} />
 </Routes>
 
@@ -93,6 +93,21 @@ export default function App(){
 function Contact() {
   return <section>
     <h1 className="largestyle"><b style={{color:"white"}}>Contact</b></h1>
+    <div className="d-flex justify-content-center align-items-center flx ">
+        <div className='p-2 flex-fill'><img className='profile_pic' src={Profile} alt="" /></div>
+        <div className='justify-content-end p-2 flex-fill'> <h1> Hi, I am <br /> Sangeetha Suresh Harikantra</h1>
+        <div className="contact_icon">
+        
+          <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large" color="info"/> https://github.com/sangeetha-hari </a>
+          
+          <a href="https://twitter.com/sangeetaharikan"><TwitterIcon fontSize="large" color="info" />https://twitter.com/sangeetaharikan</a>
+          <a href=""><EmailIcon fontSize="large" color="error"/>harikantrasangeetha4@gmail.com</a>
+          <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233"><LinkedInIcon fontSize="large" color="inherit"/>https://www.linkedin.com/in/sangeetha-harikantra-b33b40233</a> 
+        </div>
+        </div>
+        {/* <div className='p-2 flex-fill'><img className='profile_pic' src={"https://i.pinimg.com/originals/0d/a5/cb/0da5cbca5d728a789100439958f50235.gif"} alt="" /></div> */}
+      </div>
+
     <h4> gmail</h4>
     <h4> moblie number</h4>
     <h4> </h4>
@@ -119,10 +134,10 @@ function Home() {
       </div>
 
       <br /><br />
-      <a href='./resume'><Button variant="contained">
+      <a href='./resume_sangeetha.pdf'><Button variant="contained">
         Download Resume
       </Button></a>
-      <a href="/about"><KeyboardDoubleArrowDown fontSize='large' />
+      <a href="#about"><KeyboardDoubleArrowDown fontSize='large' />
         <i className="fa-solid fa-angle-down"></i>
       </a>
     </Container>

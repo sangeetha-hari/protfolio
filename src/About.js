@@ -27,7 +27,7 @@ export default function About() {
         </div>
       </div>
       <br/>
-      <a  href="/skills"><KeyboardDoubleArrowDown fontSize='large'/></a>
+      <a  href="#skills"><KeyboardDoubleArrowDown fontSize='large'/></a>
 
       
     </section>

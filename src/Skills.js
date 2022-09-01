@@ -75,13 +75,13 @@ export default function Skills() {
         return (
           <Card variant="outlined">
             <div className="flx">
-              <img width=" 100px" height="100px" src={el.logo}  alt=""/>
+              <img width=" 100px" height="80px" src={el.logo}  alt=""/>
             </div>
           </Card>
         );
       })}
     </section>
-    <a  href="/project"><KeyboardDoubleArrowDown fontSize='large'/></a>
+    <a  href="#project"><KeyboardDoubleArrowDown fontSize='large'/></a>
     </Container>
   );
 }

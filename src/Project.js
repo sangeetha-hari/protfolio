@@ -1,6 +1,7 @@
 import React from "react";
 import { Card,CardTitle, CardText } from 'reactstrap';
 import KeyboardDoubleArrowDown from '@mui/icons-material/KeyboardDoubleArrowDown';
+import { Container } from "react-bootstrap";
 const projectlist=[
   {
    pid:1,
@@ -21,7 +22,8 @@ const projectlist=[
 
 export default function Project() {
   return (
-    <div>
+    <Container>
+      <br/>
       <h1 className="largestyle"><b style={{color:"white"}}>Projects</b></h1>
       <section className="flxcard">
     
@@ -37,7 +39,7 @@ export default function Project() {
       );
     })}
   </section>
-  <a  href="/contact"><KeyboardDoubleArrowDown fontSize='large'/></a>
-    </div>
+  <a  href="#contact"><KeyboardDoubleArrowDown fontSize='large'/></a>
+    </Container>
   );
 }
