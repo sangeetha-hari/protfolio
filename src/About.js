@@ -29,7 +29,6 @@ export default function About() {
       <br/><br/><br/>
       <a  href="#skills"><KeyboardDoubleArrowDown fontSize='large'/></a>
 
-      
     </section>
   );
 }

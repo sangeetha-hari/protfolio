@@ -25,6 +25,7 @@ export default function App(){
   const theme = useTheme();
   return(
   <div className='App'>
+    {/* ................Navigation bar.......................... */}
 <Navbar bg="dark" expand="lg" variant="dark" sticky="top">
       <Container>
         <Navbar.Brand href="#home"><b>Sangeetha</b></Navbar.Brand>
@@ -44,26 +45,27 @@ export default function App(){
 
 
 
-{/* <NavigationBar /> */}
 
 
+{/* ......................Home section............................ */}
 <a name="home"></a>
       <Home/>
 
-{/*About me section start**************** */}
+
+{/*******************************About me section start**************** */}
 <a name="about"></a>
 <About />
 {/*About me section end**************** */}
 
 
 
-{/*Skill section start**************** */}
+{/************************Skill section start**************** */}
 <a name="skills"></a> 
  <Skills/> 
 {/*Skill section end**************** */}
 
 
-{/*Project section start**************** */}
+{/*******************************Project section start**************** */}
 <a name="project"></a>
 <Project />
 
@@ -72,11 +74,14 @@ export default function App(){
 
 
 
-{/*Contact section start**************** */}
+{/**************************Contact section start**************** */}
 <a name="contact"></a>
      <Contact/>
 {/*Contact section end**************** */}
 
+
+
+ {/* **************************Routing******************* */}
 <Routes>
 <Route path="#home" element={<Home />} />
 <Route path="#" element={<Home />} />
@@ -90,6 +95,8 @@ export default function App(){
     </div>
   )
 }
+
+// >>>>>>>>>>>>>>>>>Contact section detail<<<<<<<<<<<<<<<<<<<<<<
 
 function Contact() {
   return <section>
@@ -107,15 +114,14 @@ function Contact() {
           <h4 href="" className='linkstyle'> <i>Mail me at:</i>  <EmailIcon fontSize="large" />harikantrasangeetha4@gmail.com</h4>
         </div>
         </div>
-        {/* <div className='p-2 flex-fill'><img className='profile_pic' src={"https://i.pinimg.com/originals/0d/a5/cb/0da5cbca5d728a789100439958f50235.gif"} alt="" /></div> */}
+       
       </div>
-
-    
-        
-          
-
   </section>;
 }
+
+
+
+// >>>>>>>>>>>>>>>>>Home section detail<<<<<<<<<<<<<<<<<<<<<<
 
 function Home() {
   return <section className='section-home'>
