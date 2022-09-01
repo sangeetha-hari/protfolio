@@ -23,7 +23,7 @@ const projectlist=[
 export default function Project() {
   return (
     <Container>
-      <br/>
+      <br/><br/><br/>
       <h1 className="largestyle"><b style={{color:"white"}}>Projects</b></h1>
       <section className="flxcard">
     

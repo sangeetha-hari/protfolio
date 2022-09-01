@@ -95,30 +95,23 @@ function Contact() {
     <h1 className="largestyle"><b style={{color:"white"}}>Contact</b></h1>
     <div className="d-flex justify-content-center align-items-center flx ">
         <div className='p-2 flex-fill'><img className='profile_pic' src={Profile} alt="" /></div>
-        <div className='justify-content-end p-2 flex-fill'> <h1> Hi, I am <br /> Sangeetha Suresh Harikantra</h1>
+        <div className='justify-content-end p-2 flex-fill'> 
         <div className="contact_icon">
         
-          <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large" color="info"/> https://github.com/sangeetha-hari </a>
+          <a href="https://github.com/sangeetha-hari" className='linkstyle'><GitHubIcon fontSize="large" /> https://github.com/sangeetha-hari </a>
           
-          <a href="https://twitter.com/sangeetaharikan"><TwitterIcon fontSize="large" color="info" />https://twitter.com/sangeetaharikan</a>
-          <a href=""><EmailIcon fontSize="large" color="error"/>harikantrasangeetha4@gmail.com</a>
-          <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233"><LinkedInIcon fontSize="large" color="inherit"/>https://www.linkedin.com/in/sangeetha-harikantra-b33b40233</a> 
+          <a href="https://twitter.com/sangeetaharikan" className='linkstyle'><TwitterIcon fontSize="large" />https://twitter.com/sangeetaharikan</a>
+         
+          <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233" className='linkstyle'><LinkedInIcon fontSize="large" />https://www.linkedin.com/in/sangeetha-harikantra-b33b40233</a> 
+          <h4 href="" className='linkstyle'> <i>Mail me at:</i>  <EmailIcon fontSize="large" />harikantrasangeetha4@gmail.com</h4>
         </div>
         </div>
         {/* <div className='p-2 flex-fill'><img className='profile_pic' src={"https://i.pinimg.com/originals/0d/a5/cb/0da5cbca5d728a789100439958f50235.gif"} alt="" /></div> */}
       </div>
 
-    <h4> gmail</h4>
-    <h4> moblie number</h4>
-    <h4> </h4>
-    <div>
+    
         
-          <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large"/></a>
           
-          <a href=""><TwitterIcon fontSize="large"/></a>
-          <a href=""><EmailIcon fontSize="large"/></a>
-          <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233"><LinkedInIcon fontSize="large"/></a> 
-        </div>
 
   </section>;
 }

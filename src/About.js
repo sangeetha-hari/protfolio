@@ -17,16 +17,16 @@ export default function About() {
             I am currently working as an Asst. Professor in Information Science and Technology Department. I enjoy garding, painting, explore new Technologies and praticing yoga
           </h2>
         </div>
-        <div className="contact_icon">
+        <div>
         
-          <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large" color="info"/> https://github.com/sangeetha-hari </a>
+          <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large" color="inherit"/>  </a>
           
-          <a href="https://twitter.com/sangeetaharikan"><TwitterIcon fontSize="large" color="info" />https://twitter.com/sangeetaharikan</a>
-          <a href=""><EmailIcon fontSize="large" color="error"/>harikantrasangeetha4@gmail.com</a>
-          <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233"><LinkedInIcon fontSize="large" color="inherit"/>https://www.linkedin.com/in/sangeetha-harikantra-b33b40233</a> 
+          <a href="https://twitter.com/sangeetaharikan"><TwitterIcon fontSize="large" color="inherit" /></a>
+          <a href=""><EmailIcon fontSize="large" color="inherit"/></a>
+          <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233"><LinkedInIcon fontSize="large" color="inherit"/></a> 
         </div>
       </div>
-      <br/>
+      <br/><br/><br/>
       <a  href="#skills"><KeyboardDoubleArrowDown fontSize='large'/></a>
 
       

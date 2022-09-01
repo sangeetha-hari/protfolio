@@ -124,3 +124,9 @@ gap: 5%;
  flex-direction: column;
   gap: 5%;
 }
+.linkstyle{
+  color:antiquewhite
+}
+/* .linkstyle a:hover{
+color: #2eac43;
+} */

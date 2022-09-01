@@ -68,6 +68,7 @@ const data = [
 export default function Skills() {
   return (
     <Container className="skill">
+      <br/><br/><br/>
        <h1 className="largestyle"><b style={{color:"white"}}>Skills</b></h1>
     <section className="flxcard">
     
@@ -75,7 +76,7 @@ export default function Skills() {
         return (
           <Card variant="outlined">
             <div className="flx">
-              <img width=" 100px" height="80px" src={el.logo}  alt=""/>
+              <img width=" 80px" height="80px" src={el.logo}  alt=""/>
             </div>
           </Card>
         );
