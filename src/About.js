@@ -15,7 +15,7 @@ export default function About() {
         
           <h2>
           
-            I am currently working as an Asst. Professor in Information Science and Technology Department. I enjoy gardening, painting, explore new Technologies and practicing yoga
+            I am currently working as an Asst. Professor in Information Science and Technology Department. I enjoy gardening, painting, explore new Technologies and practicing yoga.
           </h2>
         </div>
 
