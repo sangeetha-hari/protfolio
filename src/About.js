@@ -7,6 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function About() {
   return (
     <section>
+       {/* >>>>>>>>>>>>>>>>>About section detail<<<<<<<<<<<<<<<<<<<<<< */}
       <h1 className="largestyle"><b style={{color:"white"}}>About Me</b></h1>
       <div className="section2">
         
@@ -14,9 +15,11 @@ export default function About() {
         
           <h2>
           
-            I am currently working as an Asst. Professor in Information Science and Technology Department. I enjoy garding, painting, explore new Technologies and praticing yoga
+            I am currently working as an Asst. Professor in Information Science and Technology Department. I enjoy gardening, painting, explore new Technologies and practicing yoga
           </h2>
         </div>
+
+        {/* Icons of git, linkedin twitter and mail */}
         <div>
         
           <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large" color="inherit"/>  </a>
