@@ -17,7 +17,23 @@ const projectlist=[
     pid:3,
      pname:"Opinion Mining",
      psummary:"A Research project to analyze Twitter data on any product"
+   },
+   {
+    pid:4,
+     pname:"Full Stack projects",
+     psummary:"URL shortner, SocialMedia Management tool"
+   },
+   {
+    pid:5,
+     pname:"ReactJS Projects",
+     psummary:"Added item into cart"
+   },
+   {
+    pid:6,
+     pname:"NodeJS Projects",
+     psummary:"Student-Mentor APIs, Hall-booking API"
    }
+
 ]
 
 export default function Project() {

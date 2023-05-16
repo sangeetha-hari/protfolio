@@ -16,7 +16,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Button from '@mui/material/Button';
-import Resume from './resume_sangeetha_IT.pdf';
+// import Resume from './resume_sangeetha_IT.pdf';
 
 
 
@@ -124,6 +124,7 @@ function Contact() {
 // >>>>>>>>>>>>>>>>>Home section detail<<<<<<<<<<<<<<<<<<<<<<
 
 function Home() {
+const Resume="https://drive.google.com/file/d/1kvfC0VFDBvVtOlQA7XmMtH0482Uku78l/view?usp=share_link"
   return <section className='section-home'>
 
     <Container>
