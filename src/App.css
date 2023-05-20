@@ -96,8 +96,9 @@ gap: 5%;
 
 .styleprojecctcard{
   width: auto;
-  height: auto;
+  height: 20%;
   color: #000;
+  
 }
 
 .profile_pic{
@@ -130,3 +131,19 @@ gap: 5%;
 /* .linkstyle a:hover{
 color: #2eac43;
 } */
+
+.header { 
+  min-height: 100vh; 
+}
+
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  row-gap: 10%;
+  /* row-gap: 2%;
+  margin-top: 5%; */
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
