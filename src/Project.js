@@ -22,7 +22,7 @@ const projectlist = [
     psummary: " SocialMedia Management tool",
     gitlink1: "https://github.com/sangeetha-hari/sociapp_frontEnd.git",
     gitlink2: "https://github.com/sangeetha-hari/SociBackendAPI.git",
-    deployed:""
+    deployed:"https://rad-bunny-352c80.netlify.app/"
   },
   {
     pid: 2,
@@ -31,14 +31,34 @@ const projectlist = [
     psummary: "Rental Application",
     gitlink1: "https://github.com/sangeetha-hari/Rental_frontend.git",
     gitlink2: "https://github.com/sangeetha-hari/Rental_Backend_API.git",
+    deployed:""
+  },
+  {
+    pid: 2,
+    pimg:"https://e1.pxfuel.com/desktop-wallpaper/243/6/desktop-wallpaper-mern-stack-bloggerboy-mern-stack-thumbnail.jpg",
+    pname: "Full Stack projects",
+    psummary: "Movie Apps",
+    gitlink1: "https://github.com/sangeetha-hari/movieapp.git",
+    gitlink2: "",
+    deployed:""
   },
   {
     pid: 3,
-    pimg:"https://e1.pxfuel.com/desktop-wallpaper/243/6/desktop-wallpaper-mern-stack-bloggerboy-mern-stack-thumbnail.jpg",
-    pname: "Full Stack projects",
+    pimg:"https://s3.ap-southeast-1.amazonaws.com/arrowhitech.com/wp-content/uploads/2021/09/01031030/ReactJS.png",
+    pname: "ReactJS Projects",
     psummary: "Library system",
-    gitlink1: "https://github.com/sangeetha-hari/Rental_frontend.git",
-    gitlink2: "https://github.com/sangeetha-hari/Rental_Backend_API.git",
+    gitlink1: "https://github.com/sangeetha-hari/library.git",
+    deployed:"https://lovely-bienenstitch-61d630.netlify.app/"
+  
+  },
+  {
+    pid: 3,
+    pimg:"https://s3.ap-southeast-1.amazonaws.com/arrowhitech.com/wp-content/uploads/2021/09/01031030/ReactJS.png",
+    pname: "ReactJS Projects",
+    psummary: "Student-Teacher Dashboard",
+    gitlink1: "https://github.com/sangeetha-hari/teacher-StudentApp.git",
+    deployed:"https://ornate-parfait-f1e78e.netlify.app/"
+  
   },
 
   {
@@ -47,21 +67,32 @@ const projectlist = [
     pname: "ReactJS Projects",
     psummary: "Added item into cart",
     gitlink1: "https://github.com/sangeetha-hari/Rental_frontend.git",
+    deployed:""
     
   },
   {
     pid: 4,
     pimg:"https://images.ctfassets.net/aq13lwl6616q/7cS8gBoWulxkWNWEm0FspJ/c7eb42dd82e27279307f8b9fc9b136fa/nodejs_cover_photo_smaller_size.png",
     pname: "NodeJS Projects",
-    psummary: "Student-Mentor APIs, Hall-booking API",
-    gitlink1: "https://github.com/sangeetha-hari/Rental_frontend.git"
+    psummary: "Student-Mentor APIs",
+    gitlink1: "https://github.com/sangeetha-hari/mentor_studentNodeJS_API.git",
+    deployed:"https://assign-mentor-cxlr.onrender.com/"
+  },
+  {
+    pid: 4,
+    pimg:"https://images.ctfassets.net/aq13lwl6616q/7cS8gBoWulxkWNWEm0FspJ/c7eb42dd82e27279307f8b9fc9b136fa/nodejs_cover_photo_smaller_size.png",
+    pname: "NodeJS Projects",
+    psummary: "Hall-booking API",
+    gitlink1: "https://github.com/sangeetha-hari/nodejs_API_Hall_booking.git",
+    deployed:"https://nodejs-bookings-hall-api.onrender.com"
   },
     
   {
     pid: 5,
     pimg:"https://contentstatic.techgig.com/photo/93000110/what-makes-java-still-popular-among-developers.jpg?28608",
     pname: "Opinion Mining",
-    psummary: "A Research project to analyze Twitter data on any product",
+    psummary: "A Research project to analyze Twitter data on any product"
+    
   },
   {
     pid: 6,
@@ -131,57 +162,9 @@ export default function Project() {
             )
           })}
         
-        {/* <Card style={{ width: '18rem', marginTop:"2rem"}}>
-        <img
-    alt="Sample"
-    src="https://picsum.photos/300/200"
-  />
-        </Card>
-        <Card style={{ width: '18rem', marginTop:"2rem"}}>
-        <img
-    alt="Sample"
-    src="https://picsum.photos/300/200"
-  />
-        </Card>
-        <Card style={{ width: '18rem', marginTop:"2rem"}}>
-        <img
-    alt="Sample"
-    src="https://picsum.photos/300/200"
-  />
-        </Card>
-        <Card style={{ width: '18rem', marginTop:"2rem"}}>
-        <img
-    alt="Sample"
-    src="https://picsum.photos/300/200"
-  />
-        </Card> */}
+       
         </div>
-        {/* <section className="flxcard">
-          {projectlist.map((el) => {
-            return (
-              <Card className="styleprojecctcard">
-                <div>
-                  <CardTitle className="small">{el.pname}</CardTitle>
-                  <CardText>{el.psummary}</CardText>
-
-                  {el.gitlink1 ? (
-                    <div>
-                      {" "}
-                      <a href={el.gitlink1}>FrontEnd Git Repo</a>
-                    </div>
-                  ) : (
-                    ""
-                  )}
-                  {el.gitlink2 ? (
-                    <a href={el.gitlink1}>BackEnd Git Repo</a>
-                  ) : (
-                    ""
-                  )}
-                </div>
-              </Card>
-            );
-          })}
-        </section> */}
+        
         <a href="#contact">
           <KeyboardDoubleArrowDown fontSize="large" />
         </a>

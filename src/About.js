@@ -24,7 +24,7 @@ export default function About() {
         
           <a href="https://github.com/sangeetha-hari"><GitHubIcon fontSize="large" color="inherit"/>  </a>
           
-          <a href="https://twitter.com/sangeetaharikan"><TwitterIcon fontSize="large" color="inherit" /></a>
+          {/* <a href="https://twitter.com/sangeetaharikan"><TwitterIcon fontSize="large" color="inherit" /></a> */}
           <a href=""><EmailIcon fontSize="large" color="inherit"/></a>
           <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233"><LinkedInIcon fontSize="large" color="inherit"/></a> 
         </div>

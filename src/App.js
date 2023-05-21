@@ -108,7 +108,7 @@ function Contact() {
         
           <a href="https://github.com/sangeetha-hari" className='linkstyle'><GitHubIcon fontSize="large" /> https://github.com/sangeetha-hari </a>
           
-          <a href="https://twitter.com/sangeetaharikan" className='linkstyle'><TwitterIcon fontSize="large" />https://twitter.com/sangeetaharikan</a>
+          {/* <a href="https://twitter.com/sangeetaharikan" className='linkstyle'><TwitterIcon fontSize="large" />https://twitter.com/sangeetaharikan</a> */}
          
           <a href="https://www.linkedin.com/in/sangeetha-harikantra-b33b40233" className='linkstyle'><LinkedInIcon fontSize="large" />https://www.linkedin.com/in/sangeetha-harikantra-b33b40233</a> 
           <h4 href="" className='linkstyle'> <i>Mail me at:</i>  <EmailIcon fontSize="large" />harikantrasangeetha4@gmail.com</h4>
