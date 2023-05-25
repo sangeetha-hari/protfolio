@@ -39,7 +39,7 @@ const projectlist = [
     pname: "Full Stack projects",
     psummary: "Movie Apps",
     gitlink1: "https://github.com/sangeetha-hari/movieapp.git",
-    gitlink2: "",
+    gitlink2: "https://github.com/sangeetha-hari/nodemongo.git",
     deployed:""
   },
   {
